@@ -16,6 +16,7 @@ const returnIndices=function(arr,target){
 
 }
 
+// hashtable
 const returnIndicesHashTable=function(array,target){
     const ht={};
     let neededValue;
@@ -28,6 +29,8 @@ const returnIndicesHashTable=function(array,target){
         }
     }
     return [];
+
+    // t=o(n) s=o(n)
 }
 
-console.log(returnIndicesHashTable([2,3,4,6,7],10))
+returnIndicesHashTable([2,3,4,6,7],10);
