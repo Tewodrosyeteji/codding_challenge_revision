@@ -30,6 +30,8 @@ const rotateArrayReverse=function(arr,n){
       reverseArray(arr,0,k-1);
       reverseArray(arr,k,arr.length-1);
       return arr;
+
+      // t=o(n) s=o(1)
 }
 
 
